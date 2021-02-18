@@ -14,8 +14,9 @@ public class NewRepository {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        System.out.print("Hello");
+        public static void main(String[] args) {
+        for (int i = 0; i <= 100; i += 2) {
+           System.out.println("Number " + i);//prints string and variable i.
     }
-    
+        }
 }
